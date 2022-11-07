@@ -1,0 +1,63 @@
+.ItemsContainer{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Item {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.Item.Home-Item:hover {
+    color: #E65027;
+    border-bottom: solid 8px #E65027;
+}
+
+.Item.Garden-Item:hover {
+    color: #3fc105;
+    border-bottom: solid 8px #3fc105;
+}
+
+.Item.Kitchen-Item:hover {
+    color: #e9d809;
+    border-bottom: solid 8px #e9d809;
+}
+
+.Item.Living-Item:hover {
+    color: #06c2c2;
+    border-bottom: solid 8px #06c2c2;
+}
+
+.active.Home-Item{
+    color: #E65027;
+    border-bottom: solid 8px #E65027;
+}
+
+.active.Garden-Item{
+    color: #3fc105;
+    border-bottom: solid 8px #3fc105;
+}
+
+.active.Kitchen-Item{
+    color: #e9d809;
+    border-bottom: solid 8px #e9d809;
+}
+
+.active.Living-Item{
+    color: #06c2c2;
+    border-bottom: solid 8px #06c2c2;
+}
+
+.active.-Item{
+    color: #E65027;
+    border-bottom: solid 8px #E65027;
+}

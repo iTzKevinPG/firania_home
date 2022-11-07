@@ -1,0 +1,34 @@
+.FooterContainer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: x-small;
+}
+
+.IconFooter{
+    background: url("../../content/Logos_Principal/Negro/logo.svg") no-repeat center;
+    background-size: 98px;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.IconFooter b{
+    margin-left: 200px;
+}
+
+.IconFooter.Garden-Footer{
+    background: url("../../content/Logos_Jardin/Banner Negro/logo.svg") no-repeat center;
+    background-size: 98px;
+}
+
+.IconFooter.Kitchen-Footer{
+    background: url("../../content/Logos_Cocina/BannerNegro/logo.svg") no-repeat center;
+    background-size: 98px;
+}
+
+.IconFooter.Living-Footer{
+    background: url("../../content/Logos_Sala/BannerNegro/logo.svg") no-repeat center;
+    background-size: 98px;
+}

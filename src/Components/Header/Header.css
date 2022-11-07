@@ -1,0 +1,68 @@
+.HeaderContainer{
+    height: 55px;
+    width: 100%;
+    background-color: #3F3F3F;
+    display: flex;
+    user-select: none;
+}
+
+.IconHeader{
+    background: url("../../content/Logos_Principal/Banner/logo.svg") no-repeat center;
+    height: 100%;
+    min-width: 200px;
+    width: 200px;
+    display: flex;
+    margin-left: 15px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.IconHeader.Garden-Header{
+    background: url("../../content/Logos_Jardin/Banner/logo.svg") no-repeat center;
+}
+
+.IconHeader.Kitchen-Header{
+    background: url("../../content/Logos_Cocina/BannerBlanco/logo.svg") no-repeat center;
+}
+
+.IconHeader.Living-Header{
+    background: url("../../content/Logos_Sala/BannerBlanco/logo.svg") no-repeat center;
+}
+
+.Modules{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.Contact{
+    height: 100%;
+    width: 55px;
+    min-width: 55px;
+    display: flex;
+    background-color: #E65027;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact.Garden-Header{
+    background-color: #3fc105;
+}
+
+.Contact.Kitchen-Header{
+    background-color: #e9d809;
+}
+
+.Contact.Living-Header{
+    background-color: #06c2c2;
+}
+
+.IconContact{
+    background: url("../../content/Logos_Principal/Banner/logo_small_icon_only_inverted.png") no-repeat center;
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
